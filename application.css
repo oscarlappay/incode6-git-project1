@@ -1,14 +1,585 @@
-.header{
-background-color: grey;   
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
+@media screen and (max-width:1024px) {
+    .container{
+        max-width: 1024px;
+        background-color: lightseagreen;
+    }
+}
+@media screen and (max-width:768px) {
+    div.container{
+        max-width: 768px;
+        background-color: lightsteelblue;
+    }
+    a{
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+    }
+    div.subcontainer4{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding:10px;
+    }
+    div.csubcontainer1{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    h2.sub2text{
+        text-align: center;
+        font-size: 30px;
+    }
+    div.s4subcontainer{
+        margin: 20px;
+        display: flex;
+        flex-basis: 0;
+        text-align: center;
+        padding: 20px;
+        flex-direction: column;
+      
+    }
+    .h2text{
+        text-align: center;
+    }
+    div.subcontainer8{
+        text-align: center;
+    }
+    div.subcontainer9{
+        flex-direction: column;
+    }
+    .s9text{
+        text-align: center;
+    }
+    div.nav1box{
+        display: flex;
+        flex-direction: column;
+    }
+    div.snav1box2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    div.asubcontainer1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.asub1container1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+ 
+    }
+    p.atitle{
+        text-align: center;
+    }
+    p.atext{
+        text-align: center;
+    }
+    div.asubcontainer2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.asub2container1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+ 
+    } 
+    a.cmail{
+        text-align: center;
+        font-size: 20px;
+    }
+    p.ctext{
+        text-align: center;
+        font-size: 20px;
+    }
+ 
+}
+@media screen and (max-width:480px) {
+    .container{
+        max-width: 480px;
+        background-color: chartreuse;
+    }
+    img.wlogoh{
+        width: 100px;
+    }
+    img.blogo{
+        
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    a{
+        margin: 0;
+        display: flex;
+        font-size: 10px;
+        flex-direction: column;
+        padding: 0;
+    }
+    div.subcontainer4{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding:10px;
+
+    }
+    h2.sub2text{
+        text-align: center;
+        font-size: 15px;
+    }
+    div.s4subcontainer{
+        margin: 20px;
+        display: flex;
+        flex-basis: 0;
+        justify-content: space-between;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    .h2text{
+        text-align: center;
+    }
+    div.subcontainer8{
+        text-align: center;
+    }
+    div.subcontainer9{
+        flex-direction: column;
+    }
+    .s9text{
+        text-align: center;
+    }
+    div.nav1box{
+        display: flex;
+        flex-direction: column;
+    }
+    div.snav1box2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+       
+    div.asubcontainer1{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.asub1container1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+ 
+    }
+    p.atitle{
+        text-align: center;
+    }
+    p.atext{
+        text-align: center;
+    }
+    div.asubcontainer2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.asub2container1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+ 
+    } 
+    a.cmail{
+        text-align: center;
+        font-size: 20px;
+    }
+    p.ctext{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+ p.s7text{
+     font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;    
+ }
+ p.s7text1{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;    
+ }
 }
 body{
     margin: 0;
-
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 .container {
-    width: 100vw;
-    height: 100vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.header{
+background-color: lightslategray; 
+height: 120px;
+width: 100%;  
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.wlogoh{
+    display: flex;
+    margin-left: 20px;
+    width: 200px;
+    height: 80px;
+    object-fit: contain;
+
+}
+.nav{
+    display: flex;
+    margin-right: 30px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 20px;
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+a{
+    padding-right: 10px;
+    text-decoration: none;
+}
+.subcontainer1{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.blogo{
+    margin: 0;
+    height: 100px;
+    margin-top: 50px;
+    object-fit: contain;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.subcontainer2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+}
+.csale{
+    width: 100%;
+    height: auto;
+}
+
+.sub2text{
+margin-top: 60px;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 40px;
+}
+.subcontainer3{
+    font-weight: bold;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    font-size: 30px;
+
+}
+.subcontainer4{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around; 
+    width: 90%;
+    
+}
+.icon{
+    margin-top: 50px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.s4subcontainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 30%;
+    background-color: rgb(207, 207, 207);
+    
+}
+.sub4htext{
+    font-weight: bold;
+    font-size: 25px;
+}
+.sub4text{
+    width: 80%;
+}
+.button{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+
+}
+.button1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 12px;
+    background-color: lightslategray;
+    color: white;
+    font-size: 25px;   
+}
+.subcontainer5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;  
+}
+.subcontainer6{
+    display: flex;
+    width: 85%;
+    padding: 10px;
+    align-items: center;
+}
+.iopen{
+    height: 80px;
+    width: 80px;
+}
+.popen{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.subcontainer7{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 5px;
+    padding: 5px;
+}
+.s7subcontainer{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    padding: 30px;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.s7text{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.s7text1{
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.spantext{
+    font-weight: bold;
+}
+.subcontainer8{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.s8text{
+    font-size: 20px;
+}
+.subcontainer9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+ 
+}
+.s9text{
+    margin: 0;
+    font-size: 25px;
+    
+}
+.footer{
+    display: flex;
+    height: 100px;
+    background-color: lightslategray;
+    width: 100%;
+    align-items: center;
+}
+.wlogof{
+    float: left;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.nav1box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
 
 
 }
+.nav1text{
+    color: white;
+    font-size: 15px;
+}
+.smedia{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+.asubcontainer1{
+    display: flex;
+    width: 90%;
+    text-align: left;
+    padding: 20px;
+}
+.asub1container1{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+.asub1container2{
+    display: flex;
+    padding: 20px;
+    flex-basis: 50%;
+    align-items: center;
+}
+.trioscafe{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.atitle{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    width: 100%;
+}
+.atext{
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+    width: 100%;
+}
+.aspace{
+    padding: 5px;
+}
+.asubcontainer2{
+    display: flex;
+    width: 90%;
+    text-align: left;
+    padding: 20px;
+}
+.asub2container1{
+    display: flex;
+    padding: 20px;
+    flex-basis: 50%;
+    align-items: center;
+
+}
+.asub2container2{
+    display: flex; 
+    padding: 20px;
+    flex-basis: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+.csubcontainer1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+.ctitle{
+    font-size: 40px;
+}
+.csubcontainer2{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    padding: 20px;   
+}
+.ctext{
+    margin: 0;
+    text-align: left;
+    font-size: 30px;
+}
+.cmail{
+    font-size: 30px;
+}
+.csubcontainer3{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    padding: 20px;   
+}
+.csubcontainer4{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;   
+}
+
+
